@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Grumblr</title>
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Le styles -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap-editable.css" rel="stylesheet"/>
+
+
+</head>
+ 
+
+ <div class="container">
+     <div class="starter-template" align="center">
+		<body id="headings" background="image.jpg">
+			<h1 id="pagetitle">Grumblr</h1>
+						
+	<style type="text/css">
+       	#pagetitle{
+		color: navy;
+		font-family: 'Syncopate', sans-serif; 
+		}
+		#feed {
+		color: navy;
+		font-family: papyrus;
+		}
+		#follow {
+		color : red;
+		}
+		#myname {
+		color : navy;
+		font-family: papyrus;
+		}
+		
+		#grumbls {
+		color : navy;
+		font-family: 'Syncopate', sans-serif;
+		}
+		
+		body {
+		color: darkslateblue;}
+		
+		body h4{
+		color:red;
+		}
+		
+		body h5{
+		color:purple;
+		}
+		
+		.red .active a,
+		.red .active a:hover {
+		background-color: midnightblue;
+		color:white;
+		}
+		
+		#lives {
+		color : navy;
+		}
+	</style>
+	</div>
+ 
+<!-------->
+<div id="content">
+    <ul id="tabs" class="nav nav-tabs red" data-tabs="tabs">
+        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" data-toggle="tab">My Profile</a></li>
+        <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Settings <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#dropdown1" data-toggle="tab">Edit Profile</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#dropdown2">Logout</a></li>
+                  </ul>
+        </li>
+		<div class="input-append">
+    <input class="span2" id="appendedInputButton" type="text" placeholder="search"/>
+    <button type="submit" class="btn">
+      <i class="icon-search"></i>
+    </button>
+</div>
+    </ul>
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="home">
+		<ul class="thumbnails">
+		<li class="span5">
+            <h1 id="feed">Folks Grumbling</h1>
+		</li>
+		<li class="span5">
+            <h1 id="grumbls">Grumbl now!!</h1>
+		</li>
+		</ul>
+		<div class="container">
+		<ul class="thumbnails">
+		<li class="span5">
+         <div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="bose.jpeg">
+		 <span class="label label-info">Rahul Bose</span>
+             <h5> If you play sport, any sport, or ever watched and enjoyed it, sign this. Please. </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="lennon.jpg">
+		 <span class="label label-info">John Lennon</span>
+             <h5> Life is what happens to you while you’re busy making other plans.</h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="harris.jpg">
+		 <span class="label label-info">Neil Patrick Harris</span>
+             <h5> Hey, NYers: what’re the great new foodie restaurants these days? Could be trendy or under the radar. Send me thoughts and links, thanks!</h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="facts.png">
+		 <span class="label label-info">OMG Facts</span>
+             <h5> Mattel made an Earring Magic Ken doll, with a purple mesh shirt, lavender vest and an earring in his left ear! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="mehta.jpeg">
+		 <span class="label label-info">Rushabh Mehta</span>
+             <h5> Can't decide if it is more natural or more creepy.</h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="coelho.jpeg">
+		 <span class="label label-info">Paulo Coelho</span>
+             <h5> Help me to support 430 children (the Brazilian govt doesn't care & never helped) Necklace</h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="yahoo.jpeg">
+		 <span class="label label-info">Yahoo!</span>
+             <h5>Roger Federer falls at U.S. Open to 19th-seeded Tommy Robredo</h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		</li>
+		<li class="span5">
+		<div class="input-append">
+                  <input class="form-control" id="focusedInput" type="text" placeholder="Grumble Now!">
+				  <button type="submit" class="btn btn-primary">Grumble</button> 
+			</div>
+		</li>
+		</div>
+		</ul>
+    </div>
+        <div class="tab-pane" id="profile">
+		<ul class="thumbnails">
+		<li class="span5">
+            <h1 id="myname">Vignesh C Gadiyar</h1>
+		</li>
+		<li class="span5">
+            <h1 id="grumbls">Grumbls</h1>
+		</li>
+		</ul>
+            <div class="container">
+<ul class="thumbnails">
+        <li class="span5">
+          <div class="thumbnail">
+            <img src="me.jpg" alt="product 1">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#">Followers <span class="badge">42</span></a></li>
+                <li class="active"><a href="#">Following <span class="badge">50</span></a></li>
+                <li class="active"><a href="#">Messages <span class="badge">3</span></a></li>
+				
+              </ul>
+			  <i class="icon-home icon-gray"></i>
+			 <span class="label label-info">Lives in Pittsburgh, Pennsylvania</span>
+			  </br>
+			 <i class="icon-home icon-book"></i>
+			 <span class="label label-info">Studies at Carnegie Mellon University</span>
+			 </br></br></br>
+			 <div class="input-append">
+                  <input class="form-control" id="focusedInput" type="text" placeholder="Grumble Now!">
+				  <button type="submit" class="btn btn-primary">Grumble</button> 
+			</div>
+          </div>
+        </li>
+        <li class="span5">
+         <div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+		<div class="well">
+		 <IMG HEIGHT=50 WIDTH=50 SRC="me.jpg">
+		 <span class="label label-success">Vignesh C Gadiyar</span>
+             <h5> Look, I'm in a well! </h5><br/>
+			  <small>Thursday at 2.59pm.</small>
+			  <i class="icon-edit"></i>
+			  <i class="icon-remove"></i>
+            </div>
+			
+			
+        </li>
+		
+      </ul>
+	  </div>
+        </div>
+        <div class="tab-pane" id="dropdown1">
+		
+		<h1 id="feed"> Edit your Grumblr Profile </h1>
+           
+<div>
+    <table id="users" class="table table-bordered table-condensed">
+        
+        <tr>
+            <td><div class="input-append"><i class="icon-user"></i><h5>First Name</h5></div></td>
+            <td><a href="#" data-pk="1">Vignesh</a></td>
+                  
+        </tr>
+        
+        <tr>
+            <td><i class="icon-user"></i><h5>Last Name</h5></td>
+            <td><a href="#" data-pk="2">Gadiyar</a></td>
+                  
+        </tr>        
+        
+        <tr>
+            <td><i class="icon-camera"></i><h5>Profile Picture</h5></td>
+            <td><img src="me.jpg" height=100 width=100>
+			<div class="fileupload fileupload-new" data-provides="fileupload">
+    <div>
+    <input type="file" />
+   
+  </div>
+</div></td>
+                  
+        </tr>  
+		<tr>
+            <td><i class="icon-book"></i><h5>School</h5></td>
+            <td><a href="#" data-pk="2">Carnegie Mellon University</a></td>
+                  
+        </tr>    
+		
+		<tr>
+            <td><i class="icon-home"></i><h5>Current City</h5></td>
+            <td><a href="#" data-pk="2">Pittsburgh, Pennsylvania</a></td>
+                  
+        </tr>    
+        
+    </table>    
+</div>
+
+<div class ="span4">
+<button type="button" class="btn btn-primary">Save Settings</button>
+</div>
+
+        </div>
+    </div>
+</div>
+ 
+ 
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>    
+</div> <!-- container -->
+ 
+ 
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/bootstrap-editable.min.js"></script>
+<script>
+$('#users a').editable({
+    type: 'text',
+    name: 'username',
+    title: 'Enter username'
+});
+
+//ajax emulation
+$.mockjax({
+    responseTime: 200
+}); 
+
+</script>
+ 
+</body>
+</html>

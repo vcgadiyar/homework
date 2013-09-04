@@ -1,0 +1,137 @@
+<title>Grumbler: Grumble along</title>
+<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+
+<!-- Actual code for the website starts here -->
+<div class="container">
+     <div class="starter-template" align="center">
+		<body id="headings" background="image.jpg">
+			<h1>Grumblr</h1>
+			<p class="lead">Nanoblogging website for curmudgeons<br> Grumble along for free.</p>
+		</body>
+		
+	<style type="text/css">
+       	#headings h1{
+		color: lightseagreen;
+		font-family: 'Syncopate', sans-serif; 
+		style="text-align:right";
+		}
+		
+		body {
+		color: darkslateblue;}
+	</style>
+</div>
+
+<div class="container">
+        	<div class="row-fluid">
+            	<div class="span12">
+                	<div class="span6">
+                    	<div class="area">
+                            <form class="form-horizontal">
+                                <div class="heading">
+                                    <h4 class="form-heading">Sign In</h4>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputUsername">Username</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputUsername" placeholder="E.g. bond007">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputPassword">Password</label>
+                                    <div class="controls">
+                                        <input type="password" id="inputPassword" placeholder="Min. 8 Characters">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="checkbox">
+                                            <input type="checkbox"> Keep me signed in   ¦
+                                            <a href="#" class="btn btn-link">Forgot my password</a>
+                                        </label>
+                                        <button id="submitbtn" type="submit" class="btn btn-primary" onclick="myFunction()">Sign In</button>
+                                        <button type="button" class="btn btn-info">Help</button>
+                                    </div>
+                                </div>	
+                                <div id="loginfailure" class="alert alert-error hide" data-alert="alert">
+                                    <button type="button" class="close" id="login-error" data-dismiss="alert">×</button>
+                                    <strong>Access Denied!</strong> Please provide valid authorization.
+                                </div>
+								
+								
+                            </form>	
+						</div>                           
+                    </div>
+                    <div class="span6">
+                    	<div class="area">
+                            <form class="form-horizontal">
+                                <div class="heading">
+                                    <h4 class="form-heading">Sign Up</h4>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputFirst">First Name</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputFirst" placeholder="E.g. James">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputLast">Last Name</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputLast" placeholder="E.g. Bond">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputEmail">Email</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputEmail" placeholder="E.g. bond@007.com">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputUser">Username</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputUser" placeholder="E.g. bond007">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputPassword">Password</label>
+                                    <div class="controls">
+                                        <input type="password" id="inputPassword" placeholder="Min. 8 Characters">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="checkbox">
+                                            <input type="checkbox"> I agree all your <a href="#">Terms of Services</a>
+                                        </label>
+                                        <button type="submit" class="btn btn-success">Sign Up</button>
+                                        <button type="button" class="btn">Help</button>
+                                    </div>
+                                </div>	
+                                <div id="emailsent" class="alert alert-info">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>Confirmation: </strong> A confirmation email has been sent to your email.<br>
+                                    Thank you for your registration.
+                                </div>
+                            </form>	
+						</div>                            
+                    </div>
+                </div>
+            	
+            </div>
+        </div>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script language="JavaScript" type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<script language="JavaScript" type="text/javascript">
+function myFunction()
+{
+console.log("In my function");
+$("#loginfailure").show();
+}
+</script>
+    
+    	    
